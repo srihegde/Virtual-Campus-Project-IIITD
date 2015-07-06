@@ -1,0 +1,6 @@
+<download name="TestTer" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="691672" md5="6db365fdb8cad4aaba460a99beb3b518"/>
+ </files>
+</download>
