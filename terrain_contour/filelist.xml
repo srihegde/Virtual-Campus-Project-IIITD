@@ -1,6 +1,6 @@
-<download name="testing_v1" type="Map">
+<download name="terrain_contour" type="Map">
  <index src="filelist.xml" dest="filelist.xml"/>
  <files>
-  <file src="level.pak" dest="level.pak" size="2771312" md5="15916b4674f325ff4658a050844620b2"/>
+  <file src="level.pak" dest="level.pak" size="770264" md5="d31f4c9a77a089060d9a4c2cab2787cd"/>
  </files>
 </download>

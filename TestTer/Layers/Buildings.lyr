@@ -1,0 +1,12 @@
+<ObjectLayer>
+ <Layer Name="Buildings" GUID="{6FB175CD-4BB9-45DF-A3C9-1D04F663EBAE}" FullName="Buildings" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="1" IsDefaultColor="1" ID="0">
+  <LayerObjects>
+   <Object Type="GeomEntity" Layer="Buildings" Id="{059320AA-0547-43A0-A230-B89B7798A0EA}" Name="GeomEntity1" Pos="773.9848,690.03687,1059.2352" FloorNumber="-1" Rotate="0.86602545,0,0,0.49999994" Scale="1.7897856,1.7897856,1.789785" ColorRGB="65535" Material="Materials/references/bricks" MatLayersMask="0" Geometry="Objects/architecture/buildings/faculty_building/fb_final_2013_4.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
