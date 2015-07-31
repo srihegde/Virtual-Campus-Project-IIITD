@@ -1,0 +1,92 @@
+<ObjectLayer>
+ <Layer Name="Roads" GUID="{37FB5665-B9DE-452C-A2DD-BF6559F4475E}" FullName="Roads" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects>
+   <Object Type="Road" Layer="Roads" Id="{2DB8B621-62DA-4C8A-95F9-407E0969E108}" Name="Road19" Pos="854,681,944.09998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/roads/road_concrete_white_stripes" Width="4" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="12.024369,24.230774,1.0304183" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="31,75,3" Back="24.221144,48.808968,2.0756106" Forw="32.123024,79.338951,3.1531394" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="22,85,3" Back="25.27976,81.941841,2.9556789" Forw="0.59843445,104.95551,3.2892103" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-43,144,4" Back="-21.202269,124.47909,3.6446295" Forw="-43,144,4" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Entity" Layer="Roads" Id="{D1338271-03E0-47D5-9ECF-45A1E481C70F}" Name="HMMWV1" Pos="870,531,940" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMMWV">
+    <Properties accuracy="1" aiSpeedMult="1" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" aicharacter_character="Car" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bFrozen="0" FrozenModel="" bHeavyObject="0" bInteractLargeObject="0" leaderName="" material="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="CarIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{EA8ED983-C0B4-467A-9BDB-49522164BD04}" Name="Road16" Pos="868,527,939.09998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/roads/road_concrete_white_stripes" Width="5" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="14.463988,27.642391,1.8324078" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="37,86,5" Back="29.181923,55.770103,3.6969874" Forw="39.568848,95.932884,5.4281416" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="30,116,5" Back="34.422997,106.73277,5" Forw="27.15733,121.95607,5" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="16,130,5" Back="21.098219,125.80909,5" Forw="-18.262848,158.16522,5" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-88,213,5" Back="-53.300194,185.37491,5" Forw="-88.368805,213.29361,5" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-87,212,5" Back="-87.342613,212.32379,5" Forw="-87,212,5" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{5C53DC8B-8F3A-4FD5-B553-9B65F4609DA6}" Name="Road17" Pos="727,607,931.09998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/roads/road_concrete_white_stripes" Width="4" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="30.138449,70.920898,5.7358828" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="85,215,17" Back="60.334843,141.97815,11.482794" Forw="86.431458,219.23787,17.320194" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="76,225,17" Back="79.263222,221.94794,16.616093" Forw="22.571091,274.97174,23.285753" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-85,374,37" Back="-28.420395,327.56781,31.157541" Forw="-90.935555,378.87103,37.612911" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-108,376,36" Back="-100.62861,378.22855,36.171429" Forw="-115.97478,373.58902,35.814541" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-128,361,36" Back="-123.25772,367.84998,36.182396" Forw="-201.51752,254.80803,33.172401" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-342,38,27" Back="-271.51462,146.20609,30.579336" Forw="-356.86426,15.181019,26.245174" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-384,-32,23" Back="-367.93549,-9.9998016,23.381191" Forw="-466.35864,-144.78946,21.045727" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-637,-366,20" Back="-553.76898,-253.96931,25.471935" Forw="-650.43835,-384.08829,19.11651" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-673,-421,4" Back="-662.42908,-401.92633,9.745079" Forw="-677.85388,-429.75806,1.3620334" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-683,-449,-5" Back="-686.2464,-439.26074,-3.6473246" Forw="-680.51813,-456.44565,-6.0341167" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-661,-457,-1" Back="-668.65179,-458.60153,-2.2456427" Forw="-610.04364,-446.33472,7.2952232" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-511,-413,23" Back="-559.79333,-431.99142,16.864311" Forw="-502.61298,-409.7356,24.054657" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-494,-392,20" Back="-498.89563,-399.61954,20.294474" Forw="-454.51288,-330.54257,17.624834" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-378,-206,15" Back="-412.84024,-270.2467,15.639271" Forw="-375.32697,-201.07082,14.950953" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-385,-191,18" Back="-381.38071,-195.25511,17.510906" Forw="-406.21329,-166.06006,20.866661" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-452,-119,25" Back="-429.69559,-143.02013,22.597988" Forw="-452.63983,-118.31097,25.068903" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-450,-121,25" Back="-450.66037,-120.32732,25.017237" Forw="-450,-121,25" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{8F44AAB9-9391-44F1-B82F-199D7E46A97C}" Name="Road24" Pos="348,401,945.09998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="Materials/terrain/road_asphalt_smooth" Width="4" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="3.3333337,-6.000001,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="10,-18,0" Back="6.6666665,-12,0" Forw="10,-18,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{6DDDDCD6-6376-4D3C-9FD2-17D968DA1A16}" Name="Road20" Pos="896,628,944.09998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/roads/path_dirt_bright" Width="4" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="-96.028061,49.589901,1.3359649" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-290,145,4" Back="-192.10516,99.205124,2.6726122" Forw="-292.59711,146.21492,4.0352149" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-295,138,4" Back="-293.76846,140.58322,4.1802249" Forw="-307.4585,111.86753,2.1768043" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-331,59,-2" Back="-319.23071,85.430443,0.088139534" Forw="-331,59,-2" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{FEC40FDE-0E44-47C5-A0AE-6C1E1D2E9DE1}" Name="Road18" Pos="730,614,931.09998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/roads/road_concrete_white_stripes" Width="6" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="1">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="-57.77478,27.750288,2.6450574" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-177,75,9" Back="-115.93932,55.687782,5.3079586" Forw="-189.32538,78.898254,9.7452555" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-215,68,13" Back="-202.85118,72.373573,12.028094" Forw="-236.44296,60.280537,14.715437" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-277,39,17" Back="-262.36884,56.557396,17" Forw="-293.35501,19.373987,17" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-300,-34,13" Back="-291.74081,-9.8246975,13.086033" Forw="-323.75729,-103.53957,12.752528" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-373,-242,16" Back="-362.1088,-169.392,19.111771" Forw="-376.94293,-268.28616,14.87345" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-342,-314,1" Back="-353.43246,-290.43515,5.6663079" Forw="-337.05869,-324.18518,-1.0168664" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-324,-343,-4" Back="-330.50153,-333.63269,-2.5147901" Forw="-324,-343,-4" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{CDD30BED-8553-4AA6-A1CD-0E74D2F2F126}" Name="Road22" Pos="345,396,945.09998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="Materials/terrain/road_asphalt_smooth" Width="5" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="5.333333,-2,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="16,-6,0" Back="10.666666,-4,0" Forw="16,-6,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
